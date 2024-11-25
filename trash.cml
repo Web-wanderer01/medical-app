@@ -1,0 +1,55 @@
+ContextMap DDDSampleMap {
+  contains ClinicalRecordsContext
+  contains AppointmentManagementContext
+  contains PatientRegistrationContext
+  contains MedicalStaffContext
+  contains BillingPaymentsContext
+  contains NotificationsContext
+  contains PregnancyCare
+
+  ClinicalRecordsContext [U]->[D] AppointmentManagementContext
+  PatientRegistrationContext [U]->[D] AppointmentManagementContext
+  MedicalStaffContext [U]->[D] AppointmentManagementContext
+  PregnancyCare [U]->[D] AppointmentManagementContext
+
+  ClinicalRecordsContext [P]<->[P] MedicalStaffContext
+  AppointmentManagementContext [P]<->[P] NotificationsContext
+  PregnancyCare [P]<->[P] MedicalStaffContext
+  PregnancyCare [P]<->[P] ClinicalRecordsContext
+  
+  AppointmentManagementContext Supplier-Customer BillingPaymentsContext
+  ClinicalRecordsContext Supplier-Customer BillingPaymentsContext
+  PatientRegistrationContext Supplier-Customer BillingPaymentsContext
+}
+
+BoundedContext ClinicalRecordsContext {}
+BoundedContext AppointmentManagementContext {}
+BoundedContext BillingPaymentsContext {}
+BoundedContext MedicalStaffContext {}
+BoundedContext NotificationsContext {}
+BoundedContext PregnancyCare {}
+
+BoundedContext PatientRegistrationContext {
+  Aggregate Customers {
+    Entity Customer {
+      aggregateRoot
+      
+
+      - CustomerId id
+      String firstname
+      String lastname
+      - List<Address> addresses
+    }
+    
+
+    ValueObject CustomerId {
+      String value
+    }
+    
+
+    Entity Address {
+      String street
+      String city
+    }
+  }
+}
