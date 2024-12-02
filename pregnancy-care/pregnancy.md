@@ -167,4 +167,51 @@ This business process demonstrates the complexity and interconnected nature of p
 Visualize those processes using sequence diagram
 ```
 ### Claude (2)
-[Sequence diagram](https://mermaid.live/edit#pako:eNp9VMFy2jAQ_RWNDj1BWhIDwYfMtKa0PUA9pM1MO1w08mJrYkvuSiahTP69K9tgEqdhOIDf09u3b9c6cGkS4CG38KcCLWGuRIqi2GhGn1KgU1KVQjsWM2FZLJwC7fro2qNrSJV1SByj-5SFpyyUFloqkffxlcdXFVroY3OPff_0_suvVR-MPBgZgwmJO4N9xtIzlpCQQ0k0u2ntrYwDZnaALB4sQ_ZNK0fWSEs7IR1796wjFmfi6C0e3tysQ4IpNOtYiZD6vvZMCmwpa6IsQnYHqLZ7prStkBgtuBg2ApEvLlJg0uitwgKS7jAZihAEOSyb1BnW7hvGmw18tBasLfyZM9NedBWyW5lBUuVAnhq2OLFbUeLF3ptOKkohA5G7jFmJAFrptCMtwzZQtlOOhKxKtaXUMsrM4L4jzkMWo9mpBM6KUTu2yt3_hhHl5E-S6udHUfjBvhjBvHEZA24NFgw6VoeTzNzIqq62VZr2I7UdOj8F7KfGylzoN7KNPOcWXFW-dBF1i1ALyeMqnrxEzS5EzZC9leYlYDIHcbYWUdPTaUJbk-fmYViVtsPJys8yqdfitHXHxXjV-DGBXoLLRq3piZZc3lM-zO6tg6JjRJ3vpgz1V5Q5PO8u7iZcZ2DbFt4I9E6gqj21zdGWsa8qzdha2XtSa5trwLOsF7lIKRlktoQ6xMLQIhs8reZrSYokUb4W0R0Nqi0JuQX2gwZgt97V-eV2FtBxuPDoAL0CHm-Rc-LcE3cKHnyUtSDShUODEm0tnfABLwALoRK6cA_-8Ya7DArY8JB-JgLvN3yjn4gnKmdu91ry0GEFA46mSjMebgU5HvCqXoD2qj49pavutzHF8Qj95eGBP_JwOB1fjC-nV8FkOr0cj8azAd_T06sguJhNp6MZfUezyWj8NOB_a4HRRTAdfQhG48vJdXAVXE-Cp385I_3J)
+
+```mermaid
+sequenceDiagram
+    participant P as Patient
+    participant R as Registration
+    participant F as Financial
+    participant N as Nurse
+    participant D as OB/GYN
+    participant C as Coordinator
+    participant M as Med Records
+
+    Note over P,M: Initial Contact & Registration Phase
+    P->>R: Request pregnancy care
+    R->>F: Verify insurance
+    F-->>R: Coverage confirmed
+    R->>M: Create patient record
+    
+    Note over P,M: Initial Assessment Phase
+    R->>N: Schedule initial assessment
+    N->>P: Conduct health screening
+    N->>M: Record vital signs & history
+    N->>D: Provide assessment results
+
+    Note over P,M: Clinical Examination Phase
+    D->>P: Perform examination
+    D->>M: Document findings
+    D->>D: Create care plan
+    
+    Note over P,M: Care Setup Phase
+    D->>C: Request care coordination
+    C->>F: Confirm financial clearance
+    C->>P: Schedule follow-ups
+    C->>M: Update pregnancy record
+
+    Note over P,M: Documentation Phase
+    M->>M: Setup tracking system
+    M->>C: Confirm record completion
+    C->>P: Provide care schedule
+    
+    Note over P,M: Variations
+    alt High Risk Pregnancy
+        D->>C: Flag for special monitoring
+        C->>P: Schedule additional tests
+    else Transfer Patient
+        M->>M: Request external records
+        M->>D: Review transferred data
+    end
+```
