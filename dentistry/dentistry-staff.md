@@ -16,6 +16,9 @@
 - **Billing Specialists**: 3 (to handle insurance claims and patient billing)
 - **Patient Coordinators**: 3 (to assist patients with treatment plans and follow-ups)
 
+## Clinic Managers
+- **Site Managers**: 5 (maintaining the area and equipment)
+
 ## Technical Staff
 - **Dental Technicians**: 5 (to fabricate crowns, bridges, and other prosthetic devices)
 - **Radiology Technicians**: 2 (to perform X-rays and imaging services)
@@ -28,11 +31,12 @@
 ## Total Staff Count
 - **Total Dental Specialists Needed**: 56
 - **Total Administrative and Support Staff Needed**: 31
+- **Total Managers Needed**: 5
 - **Total Technical Staff Needed**: 7
 - **Total External Services Staff Needed**: 7
 
 ## Grand Total Staff
-- **Overall Total Staff Required**: 101
+- **Overall Total Staff Required**: 106
 
 ## Specialists with Multiple Expertise
 Some specialists may have training in multiple areas:
