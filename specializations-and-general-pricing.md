@@ -30,16 +30,16 @@
 
 | **Service Category**         | **Pricing Strategy**        | **Price Range**        | **Description**                                                                                  |
 |------------------------------|-----------------------------|------------------------|--------------------------------------------------------------------------------------------------|
-| **General Consultation**      | Competitive Pricing         | $100 - $150            | Standard pricing for initial consultations with primary care physicians or specialists.         |
-| **Preventive Health Screenings** | Value-Based Pricing       | $150 - $300            | Comprehensive packages including blood tests, physical exams, and immunizations tailored to age and risk factors. |
-| **Specialist Consultations**  | Premium Pricing             | $200 - $400            | Higher fees for specialized services (e.g., cardiology, oncology) reflecting the expertise and complexity involved. |
-| **Diagnostic Imaging**        | Bundled Pricing             | $300 - $1,200          | Package prices for imaging services (e.g., X-rays, MRIs) that include interpretation and follow-up consultation. |
-| **Surgical Procedures**       | Bundled Pricing             | $5,000 - $20,000       | All-inclusive pricing covering pre-operative assessments, surgery, anesthesia, and post-operative care. |
-| **Chronic Disease Management**| Subscription Model          | $50 - $100/month       | Monthly fee for ongoing management of chronic conditions (e.g., diabetes) including regular check-ups and medication management. |
-| **Telehealth Services**       | Promotional Pricing         | $50 - $100             | Reduced rates for virtual consultations to encourage usage; ideal for follow-ups or minor health issues. |
-| **Laboratory Services**       | Cost-Plus Pricing           | $20 - $500             | Prices based on actual costs plus a markup; varies by test complexity (e.g., basic blood tests vs. genetic testing). |
-| **Physical Therapy Sessions**  | Package Pricing            | $75 - $150/session     | Discounts available for purchasing multiple sessions upfront (e.g., 10 sessions for the price of 9). |
-| **Wellness Programs**         | Value-Based Pricing         | $200 - $500            | Programs focusing on lifestyle changes (nutrition counseling, fitness classes) priced based on the perceived value of improved health outcomes. |
+| **General Consultation**      | Competitive Pricing         | £100 - £150            | Standard pricing for initial consultations with primary care physicians or specialists.         |
+| **Preventive Health Screenings** | Value-Based Pricing       | £150 - £300            | Comprehensive packages including blood tests, physical exams, and immunizations tailored to age and risk factors. |
+| **Specialist Consultations**  | Premium Pricing             | £200 - £400            | Higher fees for specialized services (e.g., cardiology, oncology) reflecting the expertise and complexity involved. |
+| **Diagnostic Imaging**        | Bundled Pricing             | £300 - £1,200          | Package prices for imaging services (e.g., X-rays, MRIs) that include interpretation and follow-up consultation. |
+| **Surgical Procedures**       | Bundled Pricing             | £5,000 - £20,000       | All-inclusive pricing covering pre-operative assessments, surgery, anesthesia, and post-operative care. |
+| **Chronic Disease Management**| Subscription Model          | £50 - £100/month       | Monthly fee for ongoing management of chronic conditions (e.g., diabetes) including regular check-ups and medication management. |
+| **Telehealth Services**       | Promotional Pricing         | £50 - £100             | Reduced rates for virtual consultations to encourage usage; ideal for follow-ups or minor health issues. |
+| **Laboratory Services**       | Cost-Plus Pricing           | £20 - £500             | Prices based on actual costs plus a markup; varies by test complexity (e.g., basic blood tests vs. genetic testing). |
+| **Physical Therapy Sessions**  | Package Pricing            | £75 - £150/session     | Discounts available for purchasing multiple sessions upfront (e.g., 10 sessions for the price of 9). |
+| **Wellness Programs**         | Value-Based Pricing         | £200 - £500            | Programs focusing on lifestyle changes (nutrition counseling, fitness classes) priced based on the perceived value of improved health outcomes. |
 
 
 ### Key Considerations
