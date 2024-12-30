@@ -1,5 +1,16 @@
 # Staffing Distribution for 15 Dental Cabinets in London, UK
 
+## Doctor Titles
+- **Dr.** (Doctor) (e.g., Dr. John Smith)
+- **Assistant** (Dental Assistant) (e.g., Assistant Jane Doe)
+- **Prof.** (Professor) (e.g., Prof. Michael Brown)
+- **DDS** (Doctor of Dental Surgery) (e.g., DDS Emily White)
+- **DMD** (Doctor of Medicine in Dentistry) (e.g., DMD Robert Johnson)
+- **RDH** (Registered Dental Hygienist) (e.g., RDH Sarah Davis)
+- **BDS** (Bachelor of Dental Surgery) (e.g., BDS William Wilson)
+- **MD** (Medical Doctor) (e.g., MD Linda Martinez)
+- **PhD** (Doctor of Philosophy in a relevant field) (e.g., PhD James Anderson)
+
 ## Dental Specialists
 - **General Dentists**: 15 (1 per cabinet)
 - **Oral Surgeons**: 5 (to handle surgical procedures across multiple cabinets)
