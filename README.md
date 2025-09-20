@@ -1,5 +1,5 @@
 This document describes medical care domain with example companies.
-
+# healthcare
 # Bright Smiles Architects (BSA™️)
 
 The BSA™️ company which runs a network of dental clinics in London, UK.
